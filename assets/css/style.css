@@ -537,40 +537,53 @@ footer p {
     padding: 0;
     text-align: justify;
   }
-  html{
-    scroll-padding-top: 80px;
-
-  }
   .experience-article::before {
     display: none;
-
   }
-    .experience-article .content,
-    .experience-article .content:nth-child(even) {
-      margin-left: 0;
-      width: 90%;
-    }
-    .experience-article .content::after {
-      display: none;
-    }
+  .experience-article .content,
+  .experience-article .content:nth-child(even) {
+    margin-left: 0;
+    width: 90%;
+  }
+  .experience-article .content::after {
+    display: none;
+  }
 
-  header{
+  header {
     position: fixed;
     width: 100vw;
     top: 0;
     right: 0;
     z-index: 1000;
-
   }
-    section{
-        padding: 0 1rem;
-        margin-bottom: 4rem;
-    
-    }
-
-    
-  .header-container{
+  section {
+    padding: 0 1rem;
+    margin-bottom: 4rem;
+  }
+  .header-container {
     padding: 1rem;
     width: 100vw;
   }
+  footer .quick-access {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+
+  }
+  footer .quick-access a {
+    margin: 10px;
+  }
+  footer .quick-access i {
+    font-size: 24px;
+
+  }
+  footer p {
+    margin-top: 1rem;
+  } 
+
+  .contact-container .contact-form, .contact-container .contact-info {
+    width: 100%;
+    
+  }
+
+
 }
